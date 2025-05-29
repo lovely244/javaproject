@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="orangeHRM1.PIMTest"/>
+      <class name="orangeHRM1.PersonalDetailsTest"/>
+      <class name="orangeHRM1.LeaveTest"/>
+      <class name="orangeHRM1.LoginTest"/>
+      <class name="orangeHRM1.ContactDetailsTest"/>
+      <class name="orangeHRM1.AdminTest"/>
+      <class name="orangeHRM1.LogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
